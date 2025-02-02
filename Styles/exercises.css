@@ -1,0 +1,122 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: 600;
+}
+
+h1 span {
+    color: #f9bc35; /* Accent color for "Rayan Adlrdard" */
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #fff;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #f9bc35;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e6a825;
+}
+
+.hero-image img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f1f1f1;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.services p {
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 100px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card p {
+    color: #777;
+}
+
+.icon img {
+    width: 50px;
+}
+
+/* Highlight Card */
+.highlight {
+    border: 2px solid #00aaff; /* Add border color to the Sound Design card */
+}

@@ -1,0 +1,25 @@
+.onesite-logo {
+    width:200px;
+}
+.intro {
+    width:300px;
+}
+.youtube-icon,
+.facebook-icon,
+.twitter-icon,
+.instagram-icon,
+.rba-icon,
+.whatsapp-icon {
+    width:150px;
+    display:inline-block;
+    display:flex;
+    flex-direction: raw;
+}
+.youtube-app,
+.facebook-app,
+.twitter-app, 
+.instagram-app,
+.rba-app,
+.whatsapp-app {
+    display:inline-block;
+}

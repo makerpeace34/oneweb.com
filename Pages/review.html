@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my first web page</title>
+        <link href="../Styles/Review.css" rel="stylesheet">
+    </head>
+    <body>
+         <h1>Hello, World!</h1>
+         <p>This is my first HTML webpage. I am learning HTML!</p>
+         <img src="https://via.placeholder.com/150" alt="placeholder">
+         <a href="https://chatgpt.com/c/66e5f490-4318-8001-8b5d-0da226aeff3d" target="_blank"> chatGPT</a>
+         <ul>
+            <ol> Main menu
+                <li>At home</li>
+                <li>At work</li>
+            </ol>
+            <li>Studying</li>
+            <li>Physical exercise</li>
+            <li>Eating</li>
+            <li>Praying</li>
+         </ul>
+         <ol>
+            <ul>Sub-menu
+              <li>Hot tea</li>
+              <li>Cold tea</li>
+            </ul>
+            <li>Boil water</li>
+            <li>Put teapowder</li>
+            <li>Put a sugar</li>
+            <li>Put in a cup</li>
+         </ol>
+         <form action="/submit" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="Name" name="Name" placeholder="Enter your name">
+            <label for="Email">Email</label>
+            <input type="text" id="Email" name="Email" placeholder="Enter your Email">
+            <label for="Message">Message</label>
+            <textarea id="Message" name="Message" placeholder="Enter your message"></textarea>
+            <button type="submit">Submit</button>
+            <label for="Category"> Category</label>
+            <select id="category" name="Category">
+            <option value=""> Select a category</option>
+            <option value="Feedback"> Feedback</option>
+            <option value="Support"> Support</option>
+            <option value="Other"> Other</option>
+            </select>
+            <label for="password"> password</label>
+            <input type="password" id="password" name="password">
+            <p> Do you agree to the terms?</p>
+            <label for="agreement">Agreement</label>
+            <input type="radio" id="yes" name="agreement" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="agreement" value="No">
+            <label for="no">No</label>
+            <p> Select your hobbies</p>
+            <label for="hobbies"> Hobbies</label>
+            <input type="checkbox" id="hobby1" name="hobbies" value="coding">
+            <label for="hobby1">Codding</label>
+            <input type="checkbox" id="hobby2" name="hobbies" value="sport">
+            <label for="hobby2">Sport</label>
+            <input type="checkbox" id="hobby3" name="hobbies" value="studying">
+            <label for="hobby3">Studying</label>
+            <table border="1"><caption> Market prices</caption>
+                <tr>
+                    <th colspan="2">Items</th>                   
+                    <th>Quantity</th>                    
+                    <th >Price</th>                   
+                </tr>
+            <tr>
+                <td>Beans</td>
+                <td>Maizes</td>
+                <td>2kg</td>
+                <td>1600rwf</td>
+            </tr>
+            <tr>
+                <td>Potatoes</td>
+                <td>Legumes</td>
+                <td>5kg</td>
+                <td>3000rwf</td>  
+            </tr>
+            <tr>
+                <td>Soup</td>
+                <td>Fruits</td>
+                <td>2cup</td>
+                <td>1800rwf</td>
+            </tr>
+            </table>
+
+         </form>
+    </body>
+</html>
